@@ -1,15 +1,3 @@
-"""
-Ponto de entrada do analisador léxico.
-
-Uso:
-    python main.py                 -> modo interativo: digite o código na
-                                       hora, no próprio terminal (finalize
-                                       com uma linha vazia)
-    python main.py caminho/arq.txt -> roda o lexer sobre o arquivo informado
-    python main.py --demo          -> roda os dois exemplos de demonstração
-                                       embutidos no código
-"""
-
 import sys
 
 from lexer import Lexer

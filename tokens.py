@@ -1,16 +1,3 @@
-"""
-Especificação léxica da linguagem simplificada do robô (T1).
-
-Este módulo não sabe nada sobre COMO o texto é varrido (isso é
-responsabilidade do lexer.py) - ele só descreve O QUE existe na
-linguagem: quais palavras são reservadas, o formato de um token
-reconhecido e o erro que o lexer pode levantar.
-
-Separar isso do autômato permite reaproveitar a especificação em
-outras fases do compilador (ex.: o analisador sintático do T3 também
-vai precisar saber quais são os tokens).
-"""
-
 from collections import namedtuple
 
 PALAVRAS_RESERVADAS = {
