@@ -1,0 +1,18 @@
+// Exemplo de programa na linguagem do robo
+// Demonstra: comandos, laco repetir, condicional com senao, sensores
+
+programa rotina_limpeza
+inicio
+    repetir 2 {
+        mover;
+        se sujo {
+            limpar;
+        }
+        se obstaculo {
+            esquerda;
+        } senao {
+            direita;
+        }
+    }
+    voltar_base;
+fim
